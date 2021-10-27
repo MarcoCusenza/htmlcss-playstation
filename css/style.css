@@ -14,12 +14,9 @@
 
 /* MAIN */
 
-/* JUMBO */
-#jumbo-top{
-    height: 400px;
+#psplus{
+    background-color: #bebcbb;
 }
-/* /JUMBO */
-
 /* /MAIN */
 
 
@@ -36,30 +33,40 @@
 /* DEBUG */
 
 /* DEBUG COMMONS */
-.debug .ms_img{
-    height: 100%;
-    width: 100%;
-    background-color: lightpink;
+.debug .ms_content-box{
+    background-color: lightgreen;
+}
+
+.debug .ms_text-box{
+    height: 100px;
+    background-color: lightseagreen;
 }
 
 .debug .ms_box{
     height: 150px;
+    background-color: lightgoldenrodyellow;
+}
+
+.debug .ms_card{
+    background-color: lightseagreen;
+}
+
+.debug .ms_img{
+    height: 100%;
+    background-color: lightpink;
+}
+
+.debug .ms_caption{
+    height: 60px;
+    background-color: lightcoral;
 }
 /* /DEBUG COMMONS */
 
 
 /* DEBUG JUMBO */
 .debug #jumbo-top{
+    height: 400px;
     background-color:lightpink;
-}
-
-.debug #jumbo-top .ms_content-box{
-    height: 100px;
-    background-color: lightseagreen;
-}
-
-.debug #jumbo-bottom{
-    background-color:lightskyblue;
 }
 
 .debug #jumbo-bottom .ms_box{
@@ -79,23 +86,53 @@
 /* DEBUG SHOWCASE */
 .debug #showcase-top .container{
     height: 150px;
-    background-color: lightseagreen;
 }
 
-.debug #showcase-body .ms_content-box:nth-last-of-type(1){
+.debug #showcase-body .ms_img{
     height: 350px;
-    background-color: lightpink;
 }
 
-.debug #showcase-body .ms_content-box:nth-last-of-type(2){
+.debug #showcase-body .ms_text-box{
     height: 200px;
-    background-color: lightskyblue;
-}
-
-.debug #showcase-footer .container{
-    background-color: lightskyblue;
 }
 /* /DEBUG SHOWCASE */
+
+/* DEBUG MAIN GAME */
+.debug #main-game{
+    height: 400px;
+    background-color:lightpink;
+}
+
+.debug #main-game .ms_content-box{
+    height: 100px;
+    background-color: lightseagreen;
+}
+/* /DEBUG MAIN GAME */
+
+/* DEBUG UPCOMING RELEASES */
+
+/* /DEBUG UPCOMING RELEASES */
+
+/* DEBUG EXPLORE */
+
+/* /DEBUG EXPLORE */
+
+/* DEBUG PSPLUS */
+.debug #psplus{
+    background-color: ;
+}
+/* /DEBUG PSPLUS */
+
+
+
+
+
+
+
+
+
+
+
 
 /* /DEBUG */
 
