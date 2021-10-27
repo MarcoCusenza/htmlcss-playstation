@@ -5,12 +5,20 @@
 
 
 /* HEADER */
-
+#header-top{
+    height: 30px;
+}
 /* /HEADER */
 
 
 
 /* MAIN */
+
+/* JUMBO */
+#jumbo-top{
+    height: 350px;
+}
+/* /JUMBO */
 
 /* /MAIN */
 
@@ -26,7 +34,18 @@
 
 /* +++++++++++++++++++++ */
 /* DEBUG */
+.debug #jumbo-top{
+    background-color:lightpink;
+}
 
+.debug #jumbo-top .ms_content-box{
+    height: 150px;
+    background-color: lightseagreen;
+}
 
+.debug #jumbo-bottom{
+    height: 250px;
+    background-color:lightskyblue;
+}
 
 /* /DEBUG */
