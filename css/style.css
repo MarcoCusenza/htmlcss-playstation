@@ -52,7 +52,7 @@
 }
 
 .debug .ms_img{
-    height: 100%;
+    height: 150px;
     background-color: lightpink;
 }
 
@@ -71,6 +71,10 @@
 
 .debug #jumbo-bottom .ms_box{
     height: 70px;
+}
+
+.debug #jumbo-bottom .ms_img{
+    height: 100%;
 }
 
 .debug #jumbo-bottom .ms_box:nth-of-type(odd){
