@@ -16,7 +16,7 @@
 
 /* JUMBO */
 #jumbo-top{
-    height: 350px;
+    height: 400px;
 }
 /* /JUMBO */
 
@@ -39,13 +39,17 @@
 }
 
 .debug #jumbo-top .ms_content-box{
-    height: 150px;
+    height: 100px;
     background-color: lightseagreen;
 }
 
 .debug #jumbo-bottom{
-    height: 250px;
     background-color:lightskyblue;
+}
+
+.debug #jumbo-bottom .ms_box{
+    height: 80px;
+    background-color: lightseagreen;
 }
 
 /* /DEBUG */
