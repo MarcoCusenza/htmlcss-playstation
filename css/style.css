@@ -34,6 +34,21 @@
 
 /* +++++++++++++++++++++ */
 /* DEBUG */
+
+/* DEBUG COMMONS */
+.debug .ms_img{
+    height: 100%;
+    width: 100%;
+    background-color: lightpink;
+}
+
+.debug .ms_box{
+    height: 150px;
+}
+/* /DEBUG COMMONS */
+
+
+/* DEBUG JUMBO */
 .debug #jumbo-top{
     background-color:lightpink;
 }
@@ -48,8 +63,51 @@
 }
 
 .debug #jumbo-bottom .ms_box{
-    height: 80px;
+    height: 70px;
+}
+
+.debug #jumbo-bottom .ms_box:nth-of-type(odd){
+    background-color: lightgrey;
+}
+
+.debug #jumbo-bottom .ms_box:nth-of-type(even){
+    background-color: lightgoldenrodyellow;
+}
+/* /DEBUG JUMBO */
+
+
+/* DEBUG SHOWCASE */
+.debug #showcase-top .container{
+    height: 150px;
     background-color: lightseagreen;
 }
 
+.debug #showcase-body .ms_content-box:nth-last-of-type(1){
+    height: 350px;
+    background-color: lightpink;
+}
+
+.debug #showcase-body .ms_content-box:nth-last-of-type(2){
+    height: 200px;
+    background-color: lightskyblue;
+}
+
+.debug #showcase-footer .container{
+    background-color: lightskyblue;
+}
+/* /DEBUG SHOWCASE */
+
 /* /DEBUG */
+
+
+
+/* BREAKPOINTS MEMO */
+/* 
+Breakpoint   	    Dimensions
+X-Small 	None    <576px
+Small 	    sm 	    ≥576px
+Medium 	    md 	    ≥768px
+Large 	    lg 	    ≥992px
+Extralarge 	xl 	    ≥1200px
+XXlarge 	xxl     ≥1400px 
+*/
