@@ -1,7 +1,24 @@
 /* COMMONS */
 
+.ms_btn {
+    border: none;
+    padding: 10px 20px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
 
 /* /COMMONS */
+
+
+/* COLORI */
+
+.ms_bg_red {
+    background-color: #cd3d0f;
+}
+
+
+/* /COLORI*/
 
 
 /* HEADER */
@@ -20,7 +37,7 @@
 
 #header-bottom button#accedi {
     color: white;
-    border-color: black;
+    border: none;
     border-radius: 20px;
     background-color: black;
 }
@@ -30,6 +47,23 @@
 
 
 /* MAIN */
+
+
+/* JUMBO */
+
+#jumbo-top {
+    height: 550px;
+    background-image: url("../img/jumbo-bg.png");
+    background-position: top;
+    background-size: cover;
+}
+
+#jumbo-top h2 {
+    font-size: 40px;
+}
+
+
+/* /JUMBO */
 
 #psplus {
     background-color: #bebcbb;
@@ -87,12 +121,12 @@
 
 /* DEBUG JUMBO */
 
-.debug #jumbo {
+
+/* .debug #jumbo {
     z-index: -1;
 }
 
 .debug #jumbo-top {
-    height: 400px;
     background-color: lightpink;
 }
 
@@ -110,7 +144,7 @@
 
 .debug #jumbo-bottom .ms_box:nth-of-type(even) {
     background-color: lightgoldenrodyellow;
-}
+} */
 
 
 /* /DEBUG JUMBO */
