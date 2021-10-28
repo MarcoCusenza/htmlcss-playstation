@@ -87,7 +87,23 @@ h1, h2, h3, h4, h5, h6{
 }
 /* /SHOWCASE */
 
+/* MAIN GAME */
+#main-game {
+    height: 600px;
+    background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+    background-position: top;
+    background-size: cover;
+}
 
+.ms_w-65{
+    width: 65%;
+    max-width: 330px;
+}
+
+#main-game h2 {
+    font-size: 40px;
+}
+/* /MAIN GAME */
 
 
 
