@@ -1,148 +1,179 @@
 /* COMMONS */
 
+
 /* /COMMONS */
 
 
-
 /* HEADER */
-#header-top{
-    height: 30px;
-}
-/* /HEADER */
 
+#header-top {
+    height: 40px;
+}
+
+#header-top img {
+    height: 35%;
+}
+
+#header-bottom a {
+    color: black;
+}
+
+#header-bottom button#accedi {
+    color: white;
+    border-color: black;
+    border-radius: 20px;
+    background-color: black;
+}
+
+
+/* /HEADER */
 
 
 /* MAIN */
 
-#psplus{
+#psplus {
     background-color: #bebcbb;
 }
-/* /MAIN */
 
+
+/* /MAIN */
 
 
 /* FOOTER */
 
+
 /* /FOOTER */
 
 
-
-
-
 /* +++++++++++++++++++++ */
+
+
 /* DEBUG */
 
+
 /* DEBUG COMMONS */
-.debug .ms_content-box{
+
+.debug .ms_content-box {
     background-color: lightgreen;
 }
 
-.debug .ms_text-box{
+.debug .ms_text-box {
     height: 100px;
     background-color: lightseagreen;
 }
 
-.debug .ms_box{
+.debug .ms_box {
     height: 150px;
     background-color: lightgoldenrodyellow;
 }
 
-.debug .ms_card{
+.debug .ms_card {
     background-color: lightseagreen;
 }
 
-.debug .ms_img{
+.debug .ms_img {
     height: 150px;
     background-color: lightpink;
 }
 
-.debug .ms_caption{
+.debug .ms_caption {
     height: 60px;
     background-color: lightcoral;
 }
+
+
 /* /DEBUG COMMONS */
 
 
 /* DEBUG JUMBO */
-.debug #jumbo-top{
-    height: 400px;
-    background-color:lightpink;
+
+.debug #jumbo {
+    z-index: -1;
 }
 
-.debug #jumbo-bottom .ms_box{
+.debug #jumbo-top {
+    height: 400px;
+    background-color: lightpink;
+}
+
+.debug #jumbo-bottom .ms_box {
     height: 70px;
 }
 
-.debug #jumbo-bottom .ms_img{
+.debug #jumbo-bottom .ms_img {
     height: 100%;
 }
 
-.debug #jumbo-bottom .ms_box:nth-of-type(odd){
+.debug #jumbo-bottom .ms_box:nth-of-type(odd) {
     background-color: lightgrey;
 }
 
-.debug #jumbo-bottom .ms_box:nth-of-type(even){
+.debug #jumbo-bottom .ms_box:nth-of-type(even) {
     background-color: lightgoldenrodyellow;
 }
+
+
 /* /DEBUG JUMBO */
 
 
 /* DEBUG SHOWCASE */
-.debug #showcase-top .container{
+
+.debug #showcase-top .container {
     height: 150px;
 }
 
-.debug #showcase-body .ms_img{
+.debug #showcase-body .ms_img {
     height: 350px;
 }
 
-.debug #showcase-body .ms_text-box{
+.debug #showcase-body .ms_text-box {
     height: 200px;
 }
+
+
 /* /DEBUG SHOWCASE */
 
+
 /* DEBUG MAIN GAME */
-.debug #main-game{
+
+.debug #main-game {
     height: 400px;
-    background-color:lightpink;
+    background-color: lightpink;
 }
 
-.debug #main-game .ms_content-box{
+.debug #main-game .ms_content-box {
     height: 100px;
     background-color: lightseagreen;
 }
+
+
 /* /DEBUG MAIN GAME */
+
 
 /* DEBUG UPCOMING RELEASES */
 
+
 /* /DEBUG UPCOMING RELEASES */
+
 
 /* DEBUG EXPLORE */
 
+
 /* /DEBUG EXPLORE */
 
+
 /* DEBUG PSPLUS */
-.debug #psplus{
-    background-color: ;
-}
+
+
 /* /DEBUG PSPLUS */
-
-
-
-
-
-
-
-
-
-
 
 
 /* /DEBUG */
 
 
-
 /* BREAKPOINTS MEMO */
+
+
 /* 
 Breakpoint   	    Dimensions
 X-Small 	None    <576px
