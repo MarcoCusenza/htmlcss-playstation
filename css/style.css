@@ -1,5 +1,4 @@
 /* COMMONS */
-
 .ms_btn {
     border: none;
     padding: 8px 16px 10px 16px;
@@ -7,22 +6,28 @@
     font-size: 16px;
 }
 
-
+.ms_fs_5emezzo{
+    font-size: 1.132em;
+}
 /* /COMMONS */
 
 
 /* COLORI */
+.ms_gray {
+    color: gray;
+}
+
+.ms_bg_blue{
+    background-color: #2d64e6;
+}
 
 .ms_bg_red {
     background-color: #cd3d0f;
 }
-
-
 /* /COLORI*/
 
 
 /* HEADER */
-
 #header-top {
     height: 40px;
 }
@@ -41,16 +46,11 @@
     border-radius: 20px;
     background-color: black;
 }
-
-
 /* /HEADER */
 
 
 /* MAIN */
-
-
 /* JUMBO */
-
 #jumbo-top {
     height: 550px;
     background-image: url("../img/jumbo-bg.png");
@@ -65,32 +65,49 @@
 #jumbo-bottom img {
     border-radius: 15px;
 }
-
-
 /* /JUMBO */
 
+
+/* SHOWCASE */
+#showcase-top h1{
+    font-size: 40px;
+}
+
+#showcase-body h2{
+    font-size: 40px;
+}
+/* /SHOWCASE */
+
+
+
+
+
+
+
+
+
+/* PSPLUS */
 #psplus {
     background-color: #bebcbb;
 }
-
+/* /PSPLUS */
 
 /* /MAIN */
 
 
+
+
 /* FOOTER */
-
-
 /* /FOOTER */
+
 
 
 /* +++++++++++++++++++++ */
 
 
+
 /* DEBUG */
-
-
 /* DEBUG COMMONS */
-
 .debug .ms_content-box {
     background-color: lightgreen;
 }
@@ -118,14 +135,10 @@
     height: 60px;
     background-color: lightcoral;
 }
-
-
 /* /DEBUG COMMONS */
 
 
 /* DEBUG JUMBO */
-
-
 /* .debug #jumbo {
     z-index: -1;
 }
@@ -149,13 +162,10 @@
 .debug #jumbo-bottom .ms_box:nth-of-type(even) {
     background-color: lightgoldenrodyellow;
 } */
-
-
 /* /DEBUG JUMBO */
 
 
 /* DEBUG SHOWCASE */
-
 .debug #showcase-top .container {
     height: 150px;
 }
@@ -167,13 +177,10 @@
 .debug #showcase-body .ms_text-box {
     height: 200px;
 }
-
-
 /* /DEBUG SHOWCASE */
 
 
 /* DEBUG MAIN GAME */
-
 .debug #main-game {
     height: 400px;
     background-color: lightpink;
@@ -183,34 +190,28 @@
     height: 100px;
     background-color: lightseagreen;
 }
-
-
 /* /DEBUG MAIN GAME */
 
 
 /* DEBUG UPCOMING RELEASES */
-
-
 /* /DEBUG UPCOMING RELEASES */
 
 
 /* DEBUG EXPLORE */
-
-
 /* /DEBUG EXPLORE */
 
 
 /* DEBUG PSPLUS */
-
-
 /* /DEBUG PSPLUS */
-
 
 /* /DEBUG */
 
 
-/* BREAKPOINTS MEMO */
 
+/* +++++++++++++++++++++ */
+
+
+/* BREAKPOINTS MEMO */
 
 /* 
 Breakpoint   	    Dimensions
