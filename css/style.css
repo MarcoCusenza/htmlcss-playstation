@@ -2,7 +2,7 @@
 
 .ms_btn {
     border: none;
-    padding: 10px 20px;
+    padding: 8px 16px 10px 16px;
     font-weight: 600;
     font-size: 16px;
 }
@@ -60,6 +60,10 @@
 
 #jumbo-top h2 {
     font-size: 40px;
+}
+
+#jumbo-bottom img {
+    border-radius: 15px;
 }
 
 
