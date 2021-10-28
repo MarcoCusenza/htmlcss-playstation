@@ -14,6 +14,10 @@ h1, h2, h3, h4, h5, h6{
     font-weight: 600;
 }
 
+.ms_rounded_15 {
+    border-radius: 15px;
+}
+
 .ms_fs_5half{
     font-size: 1.2rem;
 }
@@ -70,10 +74,6 @@ h1, h2, h3, h4, h5, h6{
 #jumbo-top h2 {
     font-size: 40px;
 }
-
-#jumbo-bottom img {
-    border-radius: 15px;
-}
 /* /JUMBO */
 
 
@@ -86,6 +86,7 @@ h1, h2, h3, h4, h5, h6{
     font-size: 40px;
 }
 /* /SHOWCASE */
+
 
 /* MAIN GAME */
 #main-game {
@@ -104,6 +105,20 @@ h1, h2, h3, h4, h5, h6{
     font-size: 40px;
 }
 /* /MAIN GAME */
+
+
+/* UPCOMING */
+#tm:after{
+    content:"\2122"
+}
+/* /UPCOMING */
+
+
+
+
+
+
+
 
 
 
@@ -138,83 +153,35 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .debug .ms_text-box {
-    height: 100px;
     background-color: lightseagreen;
 }
 
 .debug .ms_box {
-    height: 150px;
     background-color: lightgoldenrodyellow;
 }
 
-.debug .ms_card {
+/* .debug .ms_card {
     background-color: lightseagreen;
-}
+} */
 
 .debug .ms_img {
-    height: 150px;
     background-color: lightpink;
 }
 
 .debug .ms_caption {
-    height: 60px;
     background-color: lightcoral;
 }
 /* /DEBUG COMMONS */
 
-
 /* DEBUG JUMBO */
-/* .debug #jumbo {
-    z-index: -1;
-}
-
-.debug #jumbo-top {
-    background-color: lightpink;
-}
-
-.debug #jumbo-bottom .ms_box {
-    height: 70px;
-}
-
-.debug #jumbo-bottom .ms_img {
-    height: 100%;
-}
-
-.debug #jumbo-bottom .ms_box:nth-of-type(odd) {
-    background-color: lightgrey;
-}
-
-.debug #jumbo-bottom .ms_box:nth-of-type(even) {
-    background-color: lightgoldenrodyellow;
-} */
 /* /DEBUG JUMBO */
 
 
 /* DEBUG SHOWCASE */
-.debug #showcase-top .container {
-    height: 150px;
-}
-
-.debug #showcase-body .ms_img {
-    height: 350px;
-}
-
-.debug #showcase-body .ms_text-box {
-    height: 200px;
-}
 /* /DEBUG SHOWCASE */
 
 
 /* DEBUG MAIN GAME */
-.debug #main-game {
-    height: 400px;
-    background-color: lightpink;
-}
-
-.debug #main-game .ms_content-box {
-    height: 100px;
-    background-color: lightseagreen;
-}
 /* /DEBUG MAIN GAME */
 
 
