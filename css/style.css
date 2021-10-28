@@ -1,3 +1,7 @@
+*{
+    font-weight: 600;
+}
+
 /* COMMONS */
 .ms_btn {
     border: none;
@@ -6,15 +10,20 @@
     font-size: 16px;
 }
 
-.ms_fs_5emezzo{
-    font-size: 1.132em;
+h1, h2, h3, h4, h5, h6{
+    font-weight: 600;
 }
+
+.ms_fs_5half{
+    font-size: 1.2rem;
+}
+
 /* /COMMONS */
 
 
 /* COLORI */
 .ms_gray {
-    color: gray;
+    color: #727272;
 }
 
 .ms_bg_blue{
