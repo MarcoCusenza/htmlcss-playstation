@@ -54,6 +54,10 @@ h3{
     color: #727272;
 }
 
+.ms_blue{
+    color: #2d64e6;
+}
+
 .ms_bg_blue{
     background-color: #2d64e6;
 }
@@ -143,17 +147,14 @@ h3{
 /* /EXPLORE */
 
 
-
-
-
-
-
-
-
-
 /* PSPLUS */
-
+#psplus button{
+    width: 220px;
+}
 /* /PSPLUS */
+
+
+
 
 /* /MAIN */
 
