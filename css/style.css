@@ -5,7 +5,7 @@
 /* COMMONS */
 .ms_btn {
     border: none;
-    padding: 8px 16px 10px 16px;
+    padding: 8px 16px 9px 16px;
     font-weight: 600;
     font-size: 16px;
 }
@@ -16,6 +16,10 @@
 
 #R:after{
     content:"\00AE";
+}
+
+#C:after{
+    content:"\00A9";
 }
 
 #ù:after{
@@ -50,6 +54,10 @@ h3{
     font-size: 1.1rem;
 }
 
+.ms_fs_footer{
+    font-size: .9rem;
+}
+
 /* /COMMONS */
 
 
@@ -64,6 +72,10 @@ h3{
 
 .ms_bg_blue{
     background-color: #2d64e6;
+}
+
+.ms_bg_bluefooter{
+    background-color: #00439c;
 }
 
 .ms_bg_darkblue{
@@ -174,6 +186,9 @@ h3{
 
 
 /* FOOTER */
+footer #logoplay{
+    width: 100px;
+}
 /* /FOOTER */
 
 
@@ -228,7 +243,7 @@ h3{
 
 /* DEBUG */
 /* DEBUG COMMONS */
-.debug .ms_content-box {
+/* .debug .ms_content-box {
     background-color: lightgreen;
 }
 
@@ -240,9 +255,9 @@ h3{
     background-color: lightgoldenrodyellow;
 }
 
-/* .debug .ms_card {
+.debug .ms_card {
     background-color: lightseagreen;
-} */
+}
 
 .debug .ms_img {
     background-color: lightpink;
@@ -250,7 +265,7 @@ h3{
 
 .debug .ms_caption {
     background-color: lightcoral;
-}
+} */
 /* /DEBUG COMMONS */
 
 /* DEBUG JUMBO */
