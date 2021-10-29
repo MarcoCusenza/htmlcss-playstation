@@ -10,8 +10,28 @@
     font-size: 16px;
 }
 
+#TM:after{
+    content:"\2122";
+}
+
+#R:after{
+    content:"\00AE";
+}
+
+#ù:after{
+    content:"\00FA";
+}
+
 h1, h2, h3, h4, h5, h6{
     font-weight: 600;
+}
+
+h1,h2{
+    font-size: 40px;
+}
+
+h3{
+    font-size: 30px;
 }
 
 .ms_rounded_15 {
@@ -20,6 +40,10 @@ h1, h2, h3, h4, h5, h6{
 
 .ms_fs_5half{
     font-size: 1.2rem;
+}
+
+.ms_fs_5to6{
+    font-size: 1.1rem;
 }
 
 /* /COMMONS */
@@ -36,6 +60,14 @@ h1, h2, h3, h4, h5, h6{
 
 .ms_bg_red {
     background-color: #cd3d0f;
+}
+
+.ms_bg_gray{
+    background-color: #bebcbb;
+}
+
+.ms_bg_lightgray{
+    background-color: #d9dadc;
 }
 /* /COLORI*/
 
@@ -78,13 +110,7 @@ h1, h2, h3, h4, h5, h6{
 
 
 /* SHOWCASE */
-#showcase-top h1{
-    font-size: 40px;
-}
 
-#showcase-body h2{
-    font-size: 40px;
-}
 /* /SHOWCASE */
 
 
@@ -108,14 +134,13 @@ h1, h2, h3, h4, h5, h6{
 
 
 /* UPCOMING */
-#tm:after{
-    content:"\2122"
-}
+
 /* /UPCOMING */
 
 
+/* EXPLORE */
 
-
+/* /EXPLORE */
 
 
 
@@ -127,9 +152,7 @@ h1, h2, h3, h4, h5, h6{
 
 
 /* PSPLUS */
-#psplus {
-    background-color: #bebcbb;
-}
+
 /* /PSPLUS */
 
 /* /MAIN */
@@ -139,6 +162,50 @@ h1, h2, h3, h4, h5, h6{
 
 /* FOOTER */
 /* /FOOTER */
+
+
+
+
+
+/* MEDIAQUERY */
+/* Mediaquery MD */
+@media screen and (min-width: 768px) {
+    /* Explore */
+    #explore .ms_caption_box h2{
+        height: 110px;
+    }
+    #explore .ms_caption_box p{
+        height: 130px;
+    }
+}
+
+/* Mediaquery LG */
+@media screen and (min-width: 992px) {
+    /* Explore */
+    #explore .ms_caption_box h2{
+        height: 60px;
+    }
+
+    #explore .ms_caption_box p{
+        height: 100px;
+    }
+}
+
+/* Mediaquery XL */
+@media screen and (min-width: 1200px) {
+    /* Explore */
+    #explore .ms_caption_box h2{
+        height: 60px;
+    }
+
+    #explore .ms_caption_box p{
+        height: 70px;
+    }
+}
+/* /MEDIAQUERY */
+
+
+
 
 
 
