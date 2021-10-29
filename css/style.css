@@ -38,6 +38,10 @@ h3{
     border-radius: 15px;
 }
 
+.ms_fs_4to5{
+    font-size: 1.3rem;
+}
+
 .ms_fs_5half{
     font-size: 1.2rem;
 }
@@ -60,6 +64,10 @@ h3{
 
 .ms_bg_blue{
     background-color: #2d64e6;
+}
+
+.ms_bg_darkblue{
+    background-color: #161c3b;
 }
 
 .ms_bg_red {
@@ -153,7 +161,11 @@ h3{
 }
 /* /PSPLUS */
 
-
+/* PSNOW */
+#psnow button{
+    width: 220px;
+}
+/* /PSNOW */
 
 
 /* /MAIN */

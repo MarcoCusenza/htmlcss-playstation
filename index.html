@@ -406,8 +406,8 @@
             <div id="explore-top">
                 <div class="container text-center pt-5">
                     <h2>Esplora PlayStation<span id="R"></span> 4</h2>
-                    <div class="ms_gray fs-4 py-3 lh-sm">Giochi incredibili e intrattenimento senza fine. Non c'è mai
-                        stato un momento migliore per giocare sulla tua PS4.</div>
+                    <div class="ms_gray ms_fs_4to5 py-3 lh-sm">Giochi incredibili e intrattenimento senza fine. Non c'è
+                        mai stato un momento migliore per giocare sulla tua PS4.</div>
                 </div>
             </div>
 
@@ -456,7 +456,8 @@
         <section id="psplus" DISABLED-class="debug" class="ms_bg_gray">
             <div class="container">
                 <div class="row">
-                    <div class="ms_content-box col-12 col-md-6 d-flex flex-column justify-content-center">
+                    <!-- Testo sempre visibile -->
+                    <div class="ms_content-box col-12 col-md-7 d-flex flex-column justify-content-center">
                         <img class="w-50 mt-5 mt-md-0" src="img/ps-plus-logo.png" alt="PS Plus Logo">
                         <p class="py-3">
                             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic ratione ex, in totam enim.
@@ -466,7 +467,8 @@
                             Plus</button>
                     </div>
 
-                    <div class="ms_content-box col-6 d-none d-md-block">
+                    <!-- Immagine a scomparsa -->
+                    <div class="ms_content-box col-5 d-none d-md-block">
                         <img class="w-100" src="img/ps-plus-april-monthly-games-featured-image-block.png"
                             alt="PS Plus Giochi di Aprile">
                     </div>
@@ -477,21 +479,25 @@
 
         <!-- DISCOUNTS -->
         <section id="discounts" class="debug">
-            <div class="container text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure,
-                dignissimos eveniet deserunt obcaecati, distinctio soluta fuga accusamus itaque unde quo veritatis
-                saepe? Cum eos velit quo iusto distinctio neque quis?
+            <div id="discounts-top" class="container text-center pt-5">
+                <h2>Nuovi sconti sul PlayStation Store</h2>
+                <div class="ms_gray ms_fs_4to5 py-3 lh-sm">Sconti pazzeschi, collezioni curate e saldi stagionali su
+                    PS5, PS4 e PS VR, tutti in un unico posto.</div>
             </div>
 
-            <div class="container py-4">
+            <div id="discounts-body" class="container py-4">
                 <div class="row">
                     <div class="col-12 col-md-4">
-                        <div class="ms_img">IMG</div>
+                        <img class="w-100 py-4" src="img/playstation-store-games-under-20-spotlight.jpg"
+                            alt="Giochi a meno">
                     </div>
                     <div class="col-12 col-md-4">
-                        <div class="ms_img">IMG</div>
+                        <img class="w-100 py-4" src="img/playstation-store-golden-week-sale-spotlight.jpg"
+                            alt="Settimana d'oro -80%">
                     </div>
                     <div class="col-12 col-md-4">
-                        <div class="ms_img">IMG</div>
+                        <img class="w-100 py-4" src="img/playstation-store-free-to-play-spotlight.png"
+                            alt="Free to Play">
                     </div>
                 </div>
             </div>
@@ -500,16 +506,23 @@
     </main>
 
     <!-- PSNOW -->
-    <section id="psnow" class="debug">
+    <section id="psnow" DISABLED-class="debug" class="ms_bg_darkblue text-white">
         <div class="container">
             <div class="row">
-                <div class="ms_content-box col-12 col-md-6">
-                    <div class="ms_img">IMG</div>
-                    <div class="ms_text-box">TEXT</div>
+                <!-- Testo sempre visibile -->
+                <div class="col-12 col-md-7 d-flex flex-column justify-content-center">
+                    <img class="w-50 mt-5 mt-md-0" src="img/ps-now-logo-two-column.png" alt="PS Plus Logo">
+                    <p class="py-3">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, dolorem asperiores fugiat
+                        architecto, amet voluptates suscipit mollitia tenetur!
+                    </p>
+                    <button class="ms_btn text-black ms_bg_lightgrey rounded-pill mb-5 mb-md-0">Esplora PlayStation
+                        Now</button>
                 </div>
 
-                <div class="ms_content-box col-6 d-none d-md-block">
-                    <div class="ms_img">IMG</div>
+                <!-- Immagine a scomparsa -->
+                <div class="col-5 d-none d-md-block">
+                    <img class="w-100" src="img/ps-now-april-featured-image-block.png" alt="PS Plus Giochi di Aprile">
                 </div>
             </div>
         </div>
