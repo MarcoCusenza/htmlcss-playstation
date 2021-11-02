@@ -146,6 +146,9 @@ h3{
 
 
 /* SHOWCASE */
+#showcase-bottom .row>div{
+    border-bottom: 2px solid transparent;
+}
 #showcase-bottom .row>div:hover{
     border-bottom: 2px solid #2d64e6;
 }
