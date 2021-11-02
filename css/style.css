@@ -130,6 +130,18 @@ h3{
 #jumbo-top h2 {
     font-size: 40px;
 }
+
+#jumbo-bottom .row img{
+    border: 2px solid white;
+}
+
+#jumbo-bottom .offset-img{
+    border: 2px solid transparent;
+}
+
+#jumbo-bottom .offset-img:hover{
+    border: 2px solid #2d64e6;
+}
 /* /JUMBO */
 
 
