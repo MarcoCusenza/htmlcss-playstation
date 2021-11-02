@@ -8,6 +8,11 @@
     padding: 8px 16px 9px 16px;
     font-weight: 600;
     font-size: 16px;
+    transition: .3s;
+}
+
+.ms_btn:hover{
+    transform: scale(1.08);
 }
 
 #TM:after{
@@ -137,10 +142,21 @@ h3{
 
 #jumbo-bottom .offset-img{
     border: 2px solid transparent;
+    opacity: .6;
+    transition: .2s;
 }
 
 #jumbo-bottom .offset-img:hover{
+    opacity: 1;
+}
+
+#jumbo-bottom .offset-img:active{
     border: 2px solid #2d64e6;
+}
+
+#jumbo-bottom .row>div:nth-of-type(1) .offset-img{
+    border: 2px solid #2d64e6;
+    opacity: 1;
 }
 /* /JUMBO */
 
@@ -149,6 +165,7 @@ h3{
 #showcase-bottom .row>div{
     border-bottom: 2px solid transparent;
     opacity: .6;
+    transition: .2s;
 }
 #showcase-bottom .row>div:hover{
     opacity: 1;
@@ -206,6 +223,17 @@ h3{
 }
 /* /PSNOW */
 
+/* SOCIAL */
+#social img{
+    max-width: 110px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+#social img:hover{
+    transform: scale(1.1);
+}
+/* /SOCIAL */
 
 /* /MAIN */
 
