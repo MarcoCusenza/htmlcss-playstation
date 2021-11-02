@@ -148,9 +148,11 @@ h3{
 /* SHOWCASE */
 #showcase-bottom .row>div{
     border-bottom: 2px solid transparent;
+    opacity: .6;
 }
 #showcase-bottom .row>div:hover{
     border-bottom: 2px solid #2d64e6;
+    opacity: 1;
 }
 /* /SHOWCASE */
 
